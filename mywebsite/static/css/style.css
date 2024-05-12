@@ -1,0 +1,30 @@
+.jumbotron {
+  padding-top: 7rem;
+  background-color: #e2edff;
+}
+
+#education {
+  background-color: #e2edff;
+}
+
+#experience {
+  background-color: #e2edff;
+}
+
+#contact {
+  background-color: #e2edff;
+}
+.social-links ul,
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.social {
+  width: 50px;
+  height: 50px;
+}
+
+section {
+  padding-top: 7rem;
+}
