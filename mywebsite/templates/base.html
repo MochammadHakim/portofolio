@@ -5,11 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% load static %}
     <!-- Bootstrap 5-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <!-- Bootstrap icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <!-- Font-Awesome -->
-    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link
+      href="assets/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
     <!-- Lightbox -->
     <link href="assets/lightbox/css/lightbox.css" rel="stylesheet" />
     <!-- Text Rotator-->
@@ -28,16 +39,28 @@
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm navbar fixed-top">
+    <nav
+      class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm navbar fixed-top"
+    >
       <div class="container">
         <a class="navbar-brand" href="#">Mochammad Hakim</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#About">About</a>
@@ -64,16 +87,27 @@
     <!-- Akhir Navbar -->
     <!-- jumbotron -->
     <section class="jumbotron text-center">
-      <img src="{% static 'img/hakim.jpg' %}" alt="Mochammad Hakim" width="200" class="rounded-circle img-thumbnail" />
+      <img
+        src="{% static 'img/hakim.jpg' %}"
+        alt="Mochammad Hakim"
+        width="200"
+        class="rounded-circle img-thumbnail"
+      />
       <h1 class="display-4">Mochammad Hakim Al Irsyad</h1>
-      <p class="lead">Undergraduate Telkom University Bandung | Network Engineer</p>
+      <p class="lead">
+        Undergraduate Telkom University Bandung | Network Engineer
+      </p>
       <div>
         <ul class="social-links">
           <a href="https://www.instagram.com/hakimmc_/" target="_blank">
-            <li><img class="social" src="{% static 'img/instagram.png' %}" /></li>
+            <li>
+              <img class="social" src="{% static 'img/instagram.png' %}" />
+            </li>
           </a>
           <a href="https://www.linkedin.com/in/mochammadhakim" target="_blank">
-            <li><img class="social" src="{% static 'img/linkedin.png' %}" /></li>
+            <li>
+              <img class="social" src="{% static 'img/linkedin.png' %}" />
+            </li>
           </a>
           <a href="https://github.com/MochammadHakim" target="_blank">
             <li><img class="social" src="{% static 'img/github.png' %}" /></li>
@@ -98,14 +132,19 @@
             <h2>About Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-5">
-            Hello, My name is Mochammad Hakim Al Irsyad, you can call me Hakim. I am an alumnus of Telkom Sandhy Putra Malang Vocational School batch 29 majoring in Computer and Network Engineering. Now I am a Telkom University student
-            majoring in Telecommunication Engineering
-          </div>
-          <div class="col-md-5">
-            At Telkom Shandy Putra Malang Vocational School, I learned about the basics of networking such as Network Instrastucture, Cisco Networking, Network Configuration, and Also Cyber Security. I also had the opportunity to intern at
-            PT Kharisma Network System for 6 months.
+        <div
+          class="d-flex flex-column justify-content-center align-items-center gap-5 fs-5 text-center"
+        >
+          <div class="col-md-10">
+            Hello, My name is Mochammad Hakim Al Irsyad, you can call me Hakim.
+            I am an alumnus of Telkom Sandhy Putra Malang Vocational School
+            batch 29 majoring in Computer and Network Engineering. Now I am a
+            Telkom University student majoring in Telecommunication Engineering
+            At Telkom Shandy Putra Malang Vocational School, I learned about the
+            basics of networking such as Network Instrastucture, Cisco
+            Networking, Network Configuration, and Also Cyber Security. I also
+            had the opportunity to intern at PT Kharisma Network System for 6
+            months.
           </div>
         </div>
       </div>
@@ -127,18 +166,35 @@
             <h2>Education</h2>
           </div>
         </div>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row justify-content-center text-center">
                 <div class="col-6">
-                  <img src="{%static 'img/Logo-Telkom-Malang.png' %}" alt="Logo-Telkom-Malang" width="250" />
+                  <img
+                    src="{%static 'img/Logo-Telkom-Malang.png' %}"
+                    alt="Logo-Telkom-Malang"
+                    width="250"
+                  />
                   <p class="pt-5">
-                    "Telkom Malang Vocational School is the pioneer of the first vocational high school in Indonesia in the field of Technology and Informatics. Experienced since 1992 which has been accredited "A" and has ISO 9001:2015
-                    quality standards. Telkom Malang Vocational School is also an adiwiyata school that applies green school principles, this increasingly provides a comfortable atmosphere for the school community."
+                    "Telkom Malang Vocational School is the pioneer of the first
+                    vocational high school in Indonesia in the field of
+                    Technology and Informatics. Experienced since 1992 which has
+                    been accredited "A" and has ISO 9001:2015 quality standards.
+                    Telkom Malang Vocational School is also an adiwiyata school
+                    that applies green school principles, this increasingly
+                    provides a comfortable atmosphere for the school community."
                   </p>
                   <div class="pt-3">
-                    <a href="https://smktelkom-mlg.sch.id/" class="btn btn-primary">Official Website </a>
+                    <a
+                      href="https://smktelkom-mlg.sch.id/"
+                      class="btn btn-primary"
+                      >Official Website
+                    </a>
                   </div>
                 </div>
               </div>
@@ -146,23 +202,45 @@
             <div class="carousel-item">
               <div class="row justify-content-center text-center">
                 <div class="col-6">
-                  <img src="{%static 'img/Logo_TelU_Bandung.png' %}" alt="Logo_TelU_Bandung" width="250" />
+                  <img
+                    src="{%static 'img/Logo_TelU_Bandung.png' %}"
+                    alt="Logo_TelU_Bandung"
+                    width="250"
+                  />
                   <p>
-                    "Telkom University (Tel-U) is a state-owned private university located in Bandung, West Java.Tel-U was one of the first private universities to achieve Superior accreditation by BAN- PT has held the title of Best Private
-                    University in Indonesia several times and is one of the Best Universities in Indonesia."
+                    "Telkom University (Tel-U) is a state-owned private
+                    university located in Bandung, West Java.Tel-U was one of
+                    the first private universities to achieve Superior
+                    accreditation by BAN- PT has held the title of Best Private
+                    University in Indonesia several times and is one of the Best
+                    Universities in Indonesia."
                   </p>
                   <div class="pt-3">
-                    <a href="https://telkomuniversity.ac.id/" class="btn btn-primary">Official Website </a>
+                    <a
+                      href="https://telkomuniversity.ac.id/"
+                      class="btn btn-primary"
+                      >Official Website
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -181,53 +259,83 @@
     <!-- Skill -->
     <section id="skill">
       <div class="container">
-        <!-- Baris Judul -->
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Top Skills</h2>
+          </div>
+        </div>
         <div class="row">
-          <div class="col text-center">
-            <h3 class="pt-3">Skills</h3>
-            <hr />
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="{%static 'img/python.png' %}"
+                class="card-img-top"
+                alt="Python"
+              />
+              <div class="card-body">
+                <h3 class="card-title text-center">Python</h3>
+              </div>
+            </div>
           </div>
-        </div>
-        <!-- Baris Web Development 1 -->
-        <div class="row my-5">
-          <!-- Network Configuration -->
-          <div class="col-md text-center">
-            <i class="fab fa-html5 h1"></i>
-            <h3>Network Configuration</h3>
-            <p>Such as Router, Switch, etc.</p>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="{%static 'img/cisco.png' %} "
+                class="card-img-top"
+                alt="Cisco"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-title">Cisco Networking</h3>
+              </div>
+            </div>
           </div>
-          <!-- Network Architecture -->
-          <div class="col-md text-center">
-            <i class="fab fa-css3-alt h1"></i>
-            <h3>Network Architecture</h3>
-            <p>Create a Network Architecture (Topology)</p>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="{%static 'img/ubuntu.png' %}"
+                class="card-img-top"
+                alt="ubuntu"
+              />
+              <div class="card-body">
+                <h3 class="card-title text-center">Ubuntu</h3>
+              </div>
+            </div>
           </div>
-          <!-- Cisco Networking -->
-          <div class="col-md text-center">
-            <i class="fab fa-js-square h1"></i>
-            <h3>Cisco Networking</h3>
-            <p>Using Cisco Equipment to create a Network</p>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="{%static 'img/cybersecurity.png' %}"
+                class="card-img-top"
+                alt="cybersecurity"
+              />
+              <div class="card-body">
+                <h3 class="card-title text-center">Cyber Security</h3>
+              </div>
+            </div>
           </div>
-        </div>
-        <!-- Baris Web Development 2 -->
-        <div class="row text-center">
-          <!-- Linux -->
-          <div class="col-md text-center">
-            <i class="fab fa-php h1"></i>
-            <h3>Linux</h3>
-            <p>Familiar With linux such as Debian and Ubuntu</p>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="{%static 'img/cisco.png' %}"
+                class="card-img-top"
+                alt="cisco"
+              />
+              <div class="card-body">
+                <h3 class="card-title text-center">Cisco Configuration</h3>
+              </div>
+            </div>
           </div>
-          <!-- Python -->
-          <div class="col-md text-center">
-            <i class="fab fa-bootstrap h1"></i>
-            <h3>Python</h3>
-            <p>Using python for Cyber Security and Website</p>
-          </div>
-          <!-- Cyber Security -->
-          <div class="col-md text-center">
-            <i class="fab fa-laravel h1"></i>
-            <h3>Cyber Security</h3>
-            <p>Known Basic Cyber Security such as CIA Triangle, Encryption, Decryption, etc.</p>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img
+                src="{%static 'img/network_architect.png' %}"
+                class="card-img-top"
+                alt="network_architect"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-title">Network Architect</h3>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -244,64 +352,42 @@
     <!-- ======= Experience Section ======= -->
     <section id="experience" class="experience">
       <div class="container">
-        <div class="section-title">
-          <h2>Experience</h2>
-          <p>
-            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis
-            commodi quidem hic quas.
-          </p>
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Experience</h2>
+          </div>
         </div>
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="experience-title">Sumary</h3>
-            <div class="experience-item pb-0">
-              <h4>Alex Smith</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
-              </ul>
+        <div
+          class="d-flex flex-column justify-content-center align-items-center gap-5"
+        >
+          <div class="row w-100">
+            <div class="col-6 text-center">
+              <h3>2023 - PRESENT</h3>
+              <h3>Internship</h3>
             </div>
-
-            <h3 class="experience-title">Education</h3>
-            <div class="experience-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div>
-            <div class="experience-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            <div class="col-6 text-center">
+              <br />
+              <h3>Adaptive Network Laboratory</h3>
             </div>
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="experience-title">Professional Experience</h3>
-            <div class="experience-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
-              <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.</li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-              </ul>
+          <div class="row w-100">
+            <div class="col-6 text-center">
+              <h3>2022 (October - November)</h3>
+              <h3>Apprenticeship</h3>
             </div>
-            <div class="experience-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul>
+            <div class="col-6 text-center">
+              <br />
+              <h3>PT. Pertamina Patra Niaga Surabaya</h3>
+            </div>
+          </div>
+          <div class="row w-100">
+            <div class="col-6 text-center">
+              <h3>2022 (June - November)</h3>
+              <h3>Internship</h3>
+            </div>
+            <div class="col-6 text-center">
+              <br />
+              <h2>PT. Kharisma Network System Surabaya</h2>
             </div>
           </div>
         </div>
@@ -327,63 +413,142 @@
         <div class="row">
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="{%static 'img/CCNA_CyberOPS.PNG' %}" class="card-img-top" alt="CyberOps" />
+              <img
+                src="{%static 'img/CCNA_CyberOPS.PNG' %}"
+                class="card-img-top"
+                alt="CyberOps"
+              />
               <div class="card-body">
                 <h5 class="card-title">CyberOps Associate</h5>
-                <p class="card-text">Cisco verifies the earner of this badge successfully completed the CyberOps Associate course. The holder of this student-level credential has a broad understanding of Security Operations.</p>
-                <a href="https://www.credly.com/badges/cf9f970e-2885-4571-bb52-f3cce1738ce5/linked_in_profile" class="btn btn-primary">Certificate</a>
+                <p class="card-text">
+                  Cisco verifies the earner of this badge successfully completed
+                  the CyberOps Associate course. The holder of this
+                  student-level credential has a broad understanding of Security
+                  Operations.
+                </p>
+                <a
+                  href="https://www.credly.com/badges/cf9f970e-2885-4571-bb52-f3cce1738ce5/linked_in_profile"
+                  class="btn btn-primary"
+                  >Certificate</a
+                >
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="{%static 'img/CCNA_ENTERPRISE.PNG' %}" class="card-img-top" alt="ENSA" />
+              <img
+                src="{%static 'img/CCNA_ENTERPRISE.PNG' %}"
+                class="card-img-top"
+                alt="ENSA"
+              />
               <div class="card-body">
-                <h5 class="card-title">CCNA: Enterprise Networking, Security, and Automation</h5>
-                <p class="card-text">Cisco verifies the earner of this badge successfully completed the Enterprise Networking, Security and Automation course and achieved this student level credential.</p>
-                <a href="https://www.credly.com/badges/2c438bcd-0b67-4a58-aff9-9e5c30eaf07f/linked_in_profile" class="btn btn-primary">Certificate</a>
+                <h5 class="card-title">
+                  CCNA: Enterprise Networking, Security, and Automation
+                </h5>
+                <p class="card-text">
+                  Cisco verifies the earner of this badge successfully completed
+                  the Enterprise Networking, Security and Automation course and
+                  achieved this student level credential.
+                </p>
+                <a
+                  href="https://www.credly.com/badges/2c438bcd-0b67-4a58-aff9-9e5c30eaf07f/linked_in_profile"
+                  class="btn btn-primary"
+                  >Certificate</a
+                >
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="{%static 'img/CCNA_SWITCHING.PNG' %}" class="card-img-top" alt="SRWE" />
+              <img
+                src="{%static 'img/CCNA_SWITCHING.PNG' %}"
+                class="card-img-top"
+                alt="SRWE"
+              />
               <div class="card-body">
-                <h5 class="card-title">CCNA: Switching, Routing, and Wireless Essentials</h5>
-                <p class="card-text">Cisco verifies the earner of this badge successfully completed the Switching, Routing, and Wireless Essentials course and achieved this student level credential.</p>
-                <a href="https://www.credly.com/badges/1c315bc6-36ac-4f1a-a822-3676cadf2040/linked_in_profile" class="btn btn-primary">Certificate</a>
+                <h5 class="card-title">
+                  CCNA: Switching, Routing, and Wireless Essentials
+                </h5>
+                <p class="card-text">
+                  Cisco verifies the earner of this badge successfully completed
+                  the Switching, Routing, and Wireless Essentials course and
+                  achieved this student level credential.
+                </p>
+                <a
+                  href="https://www.credly.com/badges/1c315bc6-36ac-4f1a-a822-3676cadf2040/linked_in_profile"
+                  class="btn btn-primary"
+                  >Certificate</a
+                >
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="{%static 'img/CCNA_ENTERPRISE.PNG' %}" class="card-img-top" alt="ITN" />
+              <img
+                src="{%static 'img/CCNA_ENTERPRISE.PNG' %}"
+                class="card-img-top"
+                alt="ITN"
+              />
               <div class="card-body">
                 <h5 class="card-title">CCNA: Introduction to Networks</h5>
-                <p class="card-text">Cisco verifies the earner of this badge successfully completed the Introduction to Networks course and achieved this student level credential.</p>
-                <a href="https://www.credly.com/badges/526895dd-3d61-4744-a7f9-028c0e56cbc2/linked_in_profile" class="btn btn-primary">Certificate</a>
+                <p class="card-text">
+                  Cisco verifies the earner of this badge successfully completed
+                  the Introduction to Networks course and achieved this student
+                  level credential.
+                </p>
+                <a
+                  href="https://www.credly.com/badges/526895dd-3d61-4744-a7f9-028c0e56cbc2/linked_in_profile"
+                  class="btn btn-primary"
+                  >Certificate</a
+                >
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="{%static 'img/ITS_NETWORKING.PNG' %}" class="card-img-top" alt="ITS_NETWORKING" />
+              <img
+                src="{%static 'img/ITS_NETWORKING.PNG' %}"
+                class="card-img-top"
+                alt="ITS_NETWORKING"
+              />
               <div class="card-body">
                 <h5 class="card-title">IT Specialist - Networking</h5>
-                <p class="card-text">Earners of this badge demonstrate foundational networking knowledge and skills, including TCP/IP, networking services, networking topologies, and troubleshooting in wired and wireless environments.</p>
-                <a href="https://www.credly.com/badges/d075a3ec-a965-415e-a864-22c78894d7d1/linked_in_profile" class="btn btn-primary">Certificate</a>
+                <p class="card-text">
+                  Earners of this badge demonstrate foundational networking
+                  knowledge and skills, including TCP/IP, networking services,
+                  networking topologies, and troubleshooting in wired and
+                  wireless environments.
+                </p>
+                <a
+                  href="https://www.credly.com/badges/d075a3ec-a965-415e-a864-22c78894d7d1/linked_in_profile"
+                  class="btn btn-primary"
+                  >Certificate</a
+                >
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="{%static 'img/MTA_NETWORKING.PNG' %}" class="card-img-top" alt="MTA_NETWORKING" />
+              <img
+                src="{%static 'img/MTA_NETWORKING.PNG' %}"
+                class="card-img-top"
+                alt="MTA_NETWORKING"
+              />
               <div class="card-body">
-                <h5 class="card-title">MTA: Networking Fundamentals - Certified 2022</h5>
+                <h5 class="card-title">
+                  MTA: Networking Fundamentals - Certified 2022
+                </h5>
                 <p class="card-text">
-                  Earners of the MTA: Networking Fundamentals certification have demonstrated knowledge of fundamental networking concepts. The MTA program provides an appropriate entry point to a future career in technology.
+                  Earners of the MTA: Networking Fundamentals certification have
+                  demonstrated knowledge of fundamental networking concepts. The
+                  MTA program provides an appropriate entry point to a future
+                  career in technology.
                 </p>
-                <a href="https://www.credly.com/badges/fb306a4a-790d-4815-8d79-18fcc082cbc8/linked_in_profile" class="btn btn-primary">Certificate</a>
+                <a
+                  href="https://www.credly.com/badges/fb306a4a-790d-4815-8d79-18fcc082cbc8/linked_in_profile"
+                  class="btn btn-primary"
+                  >Certificate</a
+                >
               </div>
             </div>
           </div>
@@ -412,15 +577,29 @@
             <form>
               <div class="mb-3">
                 <label for="Name" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="name"
+                />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                />
               </div>
               <div class="mb-3">
                 <label for="Messages" class="form-label">Messages</label>
-                <textarea class="form-control" id="Messages" rows="3"></textarea>
+                <textarea
+                  class="form-control"
+                  id="Messages"
+                  rows="3"
+                ></textarea>
               </div>
 
               <button type="submit" class="btn btn-primary">Submit</button>
@@ -439,11 +618,23 @@
     <!-- End Contact -->
 
     <!-- Footer -->
-    <footer class="bg-primary text-white text-center pb-5">
-      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.linkedin.com/in/mochammadhakim" class="text-white fw-bold"> Mochammad Hakim </a></p>
+    <footer class="bg-primary text-white text-center">
+      <p class="m-0">
+        Created with <i class="bi bi-heart-fill text-danger"></i> by
+        <a
+          href="https://www.linkedin.com/in/mochammadhakim"
+          class="text-white fw-bold"
+        >
+          Mochammad Hakim
+        </a>
+      </p>
     </footer>
     <!-- End Footer -->
     <!-- booststrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

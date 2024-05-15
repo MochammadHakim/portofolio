@@ -4,14 +4,24 @@
 }
 
 #education {
+  padding-top: 10rem;
   background-color: #e2edff;
 }
 
 #experience {
+  padding-top: 7rem;
   background-color: #e2edff;
 }
 
+#skill {
+  padding-top: 7rem;
+}
+#certificate {
+  padding-top: 7rem;
+}
+
 #contact {
+  padding-top: 7rem;
   background-color: #e2edff;
 }
 .social-links ul,
@@ -25,6 +35,20 @@ li {
   height: 50px;
 }
 
-section {
+/* section {
+  padding-top: 7rem;
+} */
+
+.card {
+  padding: 5rem;
+  height: 100%;
+}
+
+.card-title {
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+#About .container {
   padding-top: 7rem;
 }
