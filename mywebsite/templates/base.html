@@ -18,25 +18,38 @@
     />
     <!-- Font-Awesome -->
     <link
-      href="assets/font-awesome/css/font-awesome.min.css"
+      href="{% static 'assets/font-awesome/css/font-awesome.min.css' %}"
       rel="stylesheet"
     />
     <!-- Lightbox -->
-    <link href="assets/lightbox/css/lightbox.css" rel="stylesheet" />
+    <link
+      href="{% static 'assets/lightbox/css/lightbox.css' %}"
+      rel="stylesheet"
+    />
     <!-- Text Rotator-->
-    <link href="assets/textrotator/simpletextrotator.css" rel="stylesheet" />
+    <link
+      href="{% static 'assets/textrotator/simpletextrotator.css' %}"
+      rel="stylesheet"
+    />
     <!-- FlexSlider -->
-    <link href="assets/flexslider/flexslider.css" rel="stylesheet" />
+    <link
+      href="{% static 'assets/flexslider/flexslider.css' %}"
+      rel="stylesheet"
+    />
     <!-- Theme Style -->
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
     <!-- Animations -->
-    <link href="css/animate.css" rel="stylesheet" />
+    <link href="{% static 'css/animate.css' %}" rel="stylesheet" />
     <!-- Custom Favicon -->
-    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link
+      href="{% static 'img/favicon.ico' %}"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
 
     <title>Mochammad Hakim | Portofolio</title>
   </head>
+
   <body id="home">
     <!-- Navbar -->
     <nav
@@ -357,7 +370,7 @@
             <h2>Experience</h2>
           </div>
         </div>
-        <div
+        <!-- <div
           class="d-flex flex-column justify-content-center align-items-center gap-5"
         >
           <div class="row w-100">
@@ -388,6 +401,217 @@
             <div class="col-6 text-center">
               <br />
               <h2>PT. Kharisma Network System Surabaya</h2>
+            </div>
+          </div>
+        </div> -->
+        <div class="d-flex justify-content-around gap-5">
+          <div
+            class="bg-white text-center d-flex justify-content-center align-items-center rounded-3"
+            style="width: 40rem"
+          >
+            <div
+              class=""
+              style="
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-block: 20px;
+              "
+            >
+              <h5 class="card-title">2023 - PRESENT Internship</h5>
+              <p class="card-text">Adaptive Network Laboratory</p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#adaptive"
+              >
+                Description My Jobdesk
+              </button>
+            </div>
+          </div>
+          <div
+            class="modal fade"
+            id="adaptive"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Description My Jobdesk
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Netschool is study group held by Adaptive Network Laboratory
+                    that have learned about :
+                  </p>
+                  <p>
+                    - Networking (Subnetting VLSM, Routing Static & Dynamic,
+                    Vlan & Inter-Vlan)
+                  </p>
+                  <p>
+                    - Python Programming (Syntax Basic Python, Looping Concept,
+                    Array Concept, Condition Concept, Function Concept, Object
+                    Oriented Program (OOP). Inheritance)
+                  </p>
+                  <p>
+                    -Linux (Basic Command Linux, SSH, Kill Process Signalling,
+                    How to start, stop, Restart Service, Bash Scripting, Setup
+                    DNS Server,Web server (Apache2 & NGINX) & HTTPS)
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-white text-center d-flex justify-content-center align-items-center rounded-3"
+            style="width: 40rem"
+          >
+            <div
+              class=""
+              style="
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-block: 20px;
+              "
+            >
+              <h5 class="card-title">
+                2022 (October - November) Apprenticeship
+              </h5>
+              <p class="card-text">PT. Pertamina Patra Niaga Surabaya</p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#pertamina"
+              >
+                Description My Jobdesk
+              </button>
+            </div>
+          </div>
+          <div
+            class="modal fade"
+            id="pertamina"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Description My Jobdesk
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    When I was an intern at PT Kharisma, I got a project at PT
+                    Pertamina Patra Niaga. I worked as a support technician
+                    handling cable pulling and server transfers at PT Pertamina
+                    Patra Niaga Surabaya.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-white text-center d-flex justify-content-center align-items-center rounded-3"
+            style="width: 40rem"
+          >
+            <div
+              class=""
+              style="
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-block: 20px;
+              "
+            >
+              <h5 class="card-title">2022 (June - November) Internship</h5>
+              <p class="card-text">PT. Kharisma Network System Surabaya</p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#Kharisma"
+              >
+                Description My Jobdesk
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="modal fade"
+            id="Kharisma"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Description My Jobdesk
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    In PT Kharisma Network System, I got project at Senior High
+                    School Ta'miriyah surabaya, worked as techinician handling
+                    CCTV installation and cable pulling. Also I contributed to
+                    maintanancing a laptop for DPRD Surabaya.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
